@@ -1,0 +1,59 @@
+body{
+    margin:0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.page-header{
+    width: 100%;
+    background-color: #445162;
+    color: #fff;
+    padding: 50px;
+}
+.page-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.page-header-wrp{
+    width: 400px;
+    float: left;
+}
+.page-header-heading {
+    margin: 0 0 20px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.page-header-list {
+    padding: 0 0 0 30px;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    list-style-type: none;
+}
+.page-header-list-item {
+  position: relative;
+}
+
+.page-header-list-item:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7px;
+  left: -30px;
+  background-image: url('../Site-4/images/галочка.svg');
+  background-size: cover;
+}
+.page-header-photo {
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    float: right;
+}
