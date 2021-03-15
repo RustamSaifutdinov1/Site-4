@@ -1,5 +1,6 @@
 body{
     margin:0;
+    box-sizing: border-box;
 }
 .container{
     margin: 0 auto;
@@ -10,6 +11,8 @@ body{
     background-color: #445162;
     color: #fff;
     padding: 50px;
+    box-sizing: border-box;
+    
 }
 .page-header:after {
     content: "";
