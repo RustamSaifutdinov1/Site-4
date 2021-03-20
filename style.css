@@ -103,7 +103,7 @@ body{
 .dignity-product{
     background-color: #f5f5f5;
     width: 100%;
-    padding: 50px;
+    padding: 50px 50px 14px 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -137,24 +137,24 @@ body{
   font-weight: bold;
   line-height: 25px;
   position: absolute;
-  top: 0;
+  top: 5px;
   left: -39px;
 }
 .dignity-product-details-sum{
     display: block;
     outline: none;
     position: relative;
-    margin: 0 41px;
+    margin: 0 23px 36px 23px;
 }
 .dignity-product-details{
-    margin-top: 35px;
     width: 50%;
 }
 .dignity-product-text{
-    margin: 0 41px;
+    margin: 0 23px 36px 23px;
 }
 .screenshots{
     width: 100%;
+    padding: 50px 50px 20px 50px;
 }
 .screenshots-heading{
     color: #445161;
@@ -164,18 +164,22 @@ body{
     line-height: 36px;
     text-align: center;
     display:block;
-    margin: 0 auto;
-    padding: 50px 0 34px 0;
+    padding: 0 0 34px 0;
 }
 .screenshots-wrp{
     display:flex;
     flex-wrap: wrap;
+    padding: 0 0 20px 0;
 }
 .screenshots-card{
-    width: 43%;
+    width: 50%;
+    display: flex;
+    margin:0;
+    padding: 0 0 22px 0;
 }
 .screenshots-info{
-    display: flex;
+    padding: 0 0 0 15px;
+    width: 359px;
 }
 .screenshots-img{
     width: 200px;
@@ -184,10 +188,7 @@ body{
     display: block;
     color:#445161;
 }
-.screenshots-card-wrp{
-    padding: 0 15px 34px 15px;
-    width: 359px;
-}
+
 .screenshots-card-heading{
     color: #445161;
     font-family: "Arial MT";
@@ -196,4 +197,61 @@ body{
     line-height: 30px;
     text-align:left;
     display: block;
+}
+.reviews{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.reviews-heading{
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align:center;
+    display: block;
+    padding: 50px 0 35px 0;
+}
+.reviews-wrp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 0 50px;
+}
+.reviews-cards{
+    display: flex;
+    width: 50%;
+    margin: 0;
+    padding: 0 0 24px 0;
+}
+.reviews-img{
+    display: block;
+    background-color: #445161;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 75px;
+    height: 75px;
+    color:#445161;
+}
+.reviews-info{
+    width: 483px;
+    margin: 0 0 0 16px;
+    background-image: url(../Site-4/images/bg_review.svg);
+    background-repeat: no-repeat;
+    
+}
+.reviews-text{
+    width: 436px;
+    padding: 16px 20px 15px 27px;
+    margin: 0;
+}
+.reviews-nik{
+    margin: 0;
+    color: #989898;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    padding: 0 0 0 27px;
 }
