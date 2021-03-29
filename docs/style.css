@@ -50,7 +50,7 @@ body{
   position: absolute;
   top: 7px;
   left: -30px;
-  background-image: url('../Site-4/images/галочка.png');
+  background-image: url('../images/галочка.png');
   background-size: cover;
 }
 .page-header-photo {
@@ -240,7 +240,7 @@ body{
 .reviews-info{
     width: 483px;
     margin: 0 0 0 16px;
-    background-image: url(../Site-4/images/bg_review.svg);
+    background-image: url(../images/bg_review.svg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -451,7 +451,7 @@ textarea::-webkit-input-placeholder{
     position: absolute;
     top: 1px;
     left: -35px;
-    background-image: url('../Site-4/images/skype_icon.png');
+    background-image: url('../images/skype_icon.png');
     background-size: cover;
   }
 .footerli2:before {
@@ -462,7 +462,7 @@ textarea::-webkit-input-placeholder{
     position: absolute;
     top: 1px;
     left: -35px;
-    background-image: url('../Site-4/images/icq_icon.png');
+    background-image: url('../images/icq_icon.png');
     background-size: cover;
   }
 .footerli3:before {
@@ -473,7 +473,7 @@ textarea::-webkit-input-placeholder{
     position: absolute;
     top: 1px;
     left: -35px;
-    background-image: url('../Site-4/images/email_icon.png');
+    background-image: url('../images/email_icon.png');
     background-size: cover;
 }
 .footerli4:before {
@@ -484,7 +484,7 @@ textarea::-webkit-input-placeholder{
     position: absolute;
     top: 1px;
     left: -35px;
-    background-image: url('../Site-4/images/phone_icon.png');
+    background-image: url('../images/phone_icon.png');
     background-size: cover;
 }
 .page-footer-contacts-wrp{
@@ -494,7 +494,7 @@ textarea::-webkit-input-placeholder{
 .page-footer-contacts-link{
     text-decoration: none;
     display:block;
-    background-image: url(../Site-4/images/social_buttons.png);
+    background-image: url(../images/social_buttons.png);
     background-size: cover;
     border-radius: 50%;
     color:#fff;
